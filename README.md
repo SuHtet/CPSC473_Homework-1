@@ -1,1 +1,3 @@
-# CPSC473_Homework-1
+# CPSC473
+Homework #1
+Su Htet

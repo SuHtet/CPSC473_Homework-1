@@ -1,0 +1,141 @@
+
+.firstLine{
+  background: black;
+  border: 1px;
+  padding: 5px;
+  color: white;
+  text-align: center ;
+
+}
+
+.secondLine{
+  backgroung: white;
+  border: 1px;
+  padding: 5px;
+}
+
+
+.largeRedBox{
+  background-color: rgb(231, 76, 60);
+  border: 1px;
+  padding: 10px;
+  text-align: center ;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+.blueBox{
+  border-radius: 10px;
+    background: #2980B9;
+    padding: 20px;
+    width: 200px;
+    height: 130px;
+  }
+  .bluebox{
+  background: #85C1E9;
+  padding: 0px;
+  text-align: center ;
+
+}
+.navyBox{
+  border-radius: 10px;
+  background: #1A237E;
+  padding: 20px;
+  width: 200px;
+  height: 130px;
+}
+.navybox{
+  background: #0277BD;
+  padding: 0px;
+  text-align: center ;
+
+}
+.blackBox{
+  border-radius: 10px;
+  background: #212121;
+  padding: 20px;
+  width: 200px;
+  height: 130px;
+}
+.blackbox{
+  background: #757575;
+  padding: 0px;
+  text-align: center ;
+
+}
+
+.indent{
+  text-indent: 20%;
+}
+.column1 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column1 {
+        width: 100%;
+    }
+}
+.greyBox{
+  background: #D0D3D4 ;
+  padding: 20px;
+  width: 280px;
+  height: 150px;
+}
+.indent1{
+  text-indent: 25%;
+}
+.smallbluebox{
+  background: #0277BD;
+  padding: 1px;
+  width: 100px;
+  height: 30px;
+  text-align: justify ;
+}
+.largeBlackBox{
+  background-color: black;
+  border: 1px;
+  padding: 10px;
+  text-align: center ;
+}
+.column2 {
+    background-color: black;
+    float: left;
+    width: 25%;
+    padding: 0px;
+    height: 250px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

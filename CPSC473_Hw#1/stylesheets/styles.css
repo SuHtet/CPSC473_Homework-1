@@ -1,20 +1,20 @@
-
+/* For the first black line */
 .firstLine{
   background: black;
   border: 1px;
   padding: 5px;
   color: white;
   text-align: center ;
-
 }
 
+/* For the second line with tabs */
 .secondLine{
   backgroung: white;
   border: 1px;
   padding: 5px;
 }
 
-
+/* For the large red box */
 .largeRedBox{
   background-color: rgb(231, 76, 60);
   border: 1px;
@@ -22,6 +22,7 @@
   text-align: center ;
 }
 
+/* For columns */
 .column {
     float: left;
     width: 20%;
@@ -38,6 +39,8 @@
         width: 100%;
     }
 }
+
+/* For Basic blue box */
 .blueBox{
   border-radius: 10px;
     background: #2980B9;
@@ -48,9 +51,10 @@
   .bluebox{
   background: #85C1E9;
   padding: 0px;
-  text-align: center ;
-
+  text-align: center;
 }
+
+/* For All Access navy box */
 .navyBox{
   border-radius: 10px;
   background: #1A237E;
@@ -61,9 +65,10 @@
 .navybox{
   background: #0277BD;
   padding: 0px;
-  text-align: center ;
-
+  text-align: center;
 }
+
+/* For All Access + Print black box */
 .blackBox{
   border-radius: 10px;
   background: #212121;
@@ -75,18 +80,19 @@
   background: #757575;
   padding: 0px;
   text-align: center ;
-
 }
 
+/* For indentation */
 .indent{
   text-indent: 20%;
 }
+
+/* For colunms */
 .column1 {
     float: left;
     width: 25%;
     padding: 10px;
 }
- floats after the columns */
 .row:after {
     content: "";
     display: table;
@@ -98,15 +104,20 @@
         width: 100%;
     }
 }
+
+/* For five grey boxes */
 .greyBox{
   background: #D0D3D4 ;
   padding: 20px;
   width: 280px;
   height: 150px;
 }
+
+/* For indentation */
 .indent1{
   text-indent: 25%;
 }
+
 .smallbluebox{
   background: #0277BD;
   padding: 1px;
@@ -114,12 +125,7 @@
   height: 30px;
   text-align: justify ;
 }
-.largeBlackBox{
-  background-color: black;
-  border: 1px;
-  padding: 10px;
-  text-align: center ;
-}
+/* For the last black columns */
 .column2 {
     background-color: black;
     float: left;
@@ -127,12 +133,13 @@
     padding: 0px;
     height: 250px;
 }
-
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
+/* For red BONUS box */
 span.a {
     display: inline;
     width: 100px;
